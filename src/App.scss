@@ -1,0 +1,41 @@
+/**
+ * Minimal styling
+ * https://picocss.com/docs
+ */
+
+@use "@picocss/pico/scss/pico" with (
+    $semantic-root-element: "#root",
+    $enable-semantic-container: true,
+
+    // # Color schemes (https://picocss.com/docs/colors#usage-with-sass)
+    //
+    // "amber",
+    // "azure",
+    // "blue",
+    // "cyan",
+    // "fuchsia",
+    // "green",
+    // "grey",
+    // "indigo",
+    // "jade",
+    // "lime",
+    // "orange",
+    // "pink",
+    // "pumpkin",
+    // "purple",
+    // "red",
+    // "sand",
+    // "slate",
+    // "violet",
+    // "yellow",
+    // "zinc"
+    $theme-color: "slate"
+);
+
+h1 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
