@@ -1,7 +1,7 @@
 {
   "name": "calculator-thing",
   "author": "F. Tesselaar",
-  "homepage": "http://tessmore.github.io/react-ts-minimal-template",
+  "homepage": "http://tessmore.github.io/calculator",
   "private": true,
   "type": "module",
   "version": "0.1.0",
