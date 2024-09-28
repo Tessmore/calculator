@@ -15,8 +15,6 @@ const Calculator: React.FC<CalculatorProps> = ({ value }) => {
         mult: 0,
     });
 
-    console.log("TEX", value, text);
-
     const calculateResult = useDebouncedCallback((text: string) => {
         const numbers = text.match(NUM_REG);
         setResult({
